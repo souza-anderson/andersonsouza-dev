@@ -4,7 +4,7 @@
 
 Este projeto é o código-fonte do currículo online de Anderson Souza, disponível em: https://andersonsouza-dev.vercel.app
 
-![Preview](https://github.com/souza-anderson/blob/master/print.png?raw-true)
+![Preview](https://github.com/souza-anderson/andersonsouza-dev/blob/master/print.png?raw-true)
 
 ## Início
 
