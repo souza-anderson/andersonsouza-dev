@@ -14,7 +14,7 @@ const Index = ({ repos, user }) => {
       <PageHead />
       <Hero />
       <Summary />
-      <Education />      
+      <Education />
       <Repository user={user} repos={repos} />
       <Footer />
     </div>
