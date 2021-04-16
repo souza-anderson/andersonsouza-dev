@@ -1,5 +1,4 @@
 import React from 'react'
-import getUser from '../utils/getUser'
 import PageHead from '../components/PageHead'
 import Hero from '../components/Hero'
 import Summary from '../components/Summary'
@@ -22,7 +21,8 @@ const Index = ({ repos, user }) => {
 }
 
 export async function getServerSideProps(context) {
-  const { repos, user } = await getUser('souza-anderson')
+  const response = await fetch(process.env.API_URL + '/api/apiGetUser')
+  const { repos, user } = await response.json()
 
   return {
     props: {
